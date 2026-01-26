@@ -7,6 +7,9 @@ This project builds and evaluates multiple **regression models** to predict a ca
 The goal is to compare how different regression strategies perform on the classic **Auto MPG dataset**, especially in terms of bias–variance trade‑off and generalisation.
 
 ---
+## Acknowledgement
+The dataset provided in the folder is taken from kaggle
+[Dataset by UCI Machine Learning and Pravin](https://www.kaggle.com/datasets/uciml/autompg-dataset)
 
 ## Dataset
 
