@@ -1,7 +1,7 @@
 
 ---
 
-# MyCSharpNotebook
+# MyMLNotebook
 
 A personal AI/ML learning journal where I reflect on my learning journey.
 
