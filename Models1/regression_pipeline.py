@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split, learning_curve
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.metrics import mean_squared_error
 
-df = pd.read_csv('/content/auto-mpg.csv')
+df = pd.read_csv('auto-mpg.csv')
 df['car name'] = df['car name'].str.split().str[0]
 df = df.drop('car name', axis=1)
 df['horsepower'] = df['horsepower'].replace('?', np.nan).astype(float)
