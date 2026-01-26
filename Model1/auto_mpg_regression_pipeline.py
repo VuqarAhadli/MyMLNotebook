@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
@@ -9,10 +10,11 @@ from sklearn.model_selection import train_test_split, learning_curve
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.metrics import mean_squared_error
 
-df = pd.read_csv('auto-mpg.csv')
+df = pd.read_csv('MyMLNotebook/Model1/auto-mpg.csv')
 df['car name'] = df['car name'].str.split().str[0]
 df = df.drop('car name', axis=1)
 df['horsepower'] = df['horsepower'].replace('?', np.nan).astype(float)
+sns.heatmap(df.select_dtypes(include=np.number).corr(), annot=True, cmap='rocket')
 
 X = df.drop('mpg', axis=1)
 y = df['mpg']

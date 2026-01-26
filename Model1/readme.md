@@ -92,7 +92,7 @@ Models are evaluated using:
 Learning curves help visualise:
 
 - **Underfitting vs overfitting**
-> A smaller gap between validation and test scores indicates a well-balanced model
+> A smaller gap between training and validation scores indicates a well-balanced model with good bias–variance trade-off.
 - **Effect of training set size**
 - **Generalisation behaviour**
 ---
