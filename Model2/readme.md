@@ -20,7 +20,7 @@ The dataset consists of marks of students on 3 different tests, their gender and
 | Feature                     | Description                                                              |
 | --------------------------- | ------------------------------------------------------------------------ |
 | gender                      | Gender of the student                                                    |
-| race/ethnicity              | Racial or ethnic group of the student (Group A, B, C, D, etc.)           |
+| race/ethnicity              | Racial or ethnic group of the student (Group A, B, C, D, E)           |
 | parental level of education | Highest level of education attained by the student’s parents             |
 | lunch                       | Type of lunch received by the student (standard or free/reduced)         |
 | test preparation course     | Whether the student completed a test preparation course (completed/none) |
