@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split, learning_curve
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.metrics import mean_squared_error
 
-df=pd.read_csv("MyMLNotebook/Model2/StudentsPerformance.xls")
+df=pd.read_csv("Model2/StudentsPerformance.xls")
 df
 
 fig, ax = plt.subplots(1, 2, figsize=(15, 7)) 
